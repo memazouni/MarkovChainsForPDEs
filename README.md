@@ -1,4 +1,7 @@
 # MCMCforPDEs
+
+## Description
+
 Numerical resolution of a few PDEs using Markov Chains.
 We cover three differential equations with Dirichlet boundary conditions:
 * Equation 1 (Laplace equation): ![equation](https://latex.codecogs.com/gif.latex?%5CDelta%20f%28x%2Cy%29%20%3D%200)
@@ -10,9 +13,17 @@ For the second equation, we suggest two different methods (`cemetery` and `Feynm
 * The second (`edge_reached`) contains the code computing and plotting an approximation of the solution.
 * The third (`evolution`) contains the code computing and plotting an approximation of the evolution of the associated time-dependent equation (*e.g.* the Heat equation for the Laplace equation).
 
-We recommend looking at the proofs on nbviewer rather than Github because of its much better rendering of math:
+We recommend looking at the proofs on nbviewer rather than Github for better math rendering:
 
 * [equation_1_proof](https://nbviewer.jupyter.org/github/denainjs/MarkovChainsForPDEs/blob/master/equation_1_proof.ipynb)
 * [equation_2_cemetery_proof](https://nbviewer.jupyter.org/github/denainjs/MarkovChainsForPDEs/blob/master/equation_2_cemetery_proof.ipynb)
 * [equation_2_feynman_kac_proof](https://nbviewer.jupyter.org/github/denainjs/MarkovChainsForPDEs/blob/master/equation_2_feynman_kac_proof.ipynb)
 * [equation_3_proof](https://nbviewer.jupyter.org/github/denainjs/MarkovChainsForPDEs/blob/master/equation_3_proof.ipynb)
+
+## Authors
+
+[Timothée Chauvin](https://github.com/TimotheeChauvin) and [JS Denain](https://github.com/denainjs).
+
+## License
+
+This project is under the MIT license.
