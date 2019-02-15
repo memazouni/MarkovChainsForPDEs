@@ -9,3 +9,10 @@ For the second equation, we suggest two different methods (`cemetery` and `Feynm
 * The first (`proof`) contains a description of the method and a proof that it provides a good approximation of the equation's solution.
 * The second (`edge_reached`) contains the code computing and plotting an approximation of the solution.
 * The third (`evolution`) contains the code computing and plotting an approximation of the evolution of the associated time-dependent equation (*e.g.* the Heat equation for the Laplace equation).
+
+We recommend looking at the proofs on nbviewer rather than Github because of its much better rendering of math:
+
+* [equation_1_proof](https://nbviewer.jupyter.org/github/denainjs/MarkovChainsForPDEs/blob/master/equation_1_proof.ipynb)
+* [equation_2_cemetery_proof](https://nbviewer.jupyter.org/github/denainjs/MarkovChainsForPDEs/blob/master/equation_2_cemetery_proof.ipynb)
+* [equation_2_feynman_kac_proof](https://nbviewer.jupyter.org/github/denainjs/MarkovChainsForPDEs/blob/master/equation_2_feynman_kac_proof.ipynb)
+* [equation_3_proof](https://nbviewer.jupyter.org/github/denainjs/MarkovChainsForPDEs/blob/master/equation_3_proof.ipynb)
