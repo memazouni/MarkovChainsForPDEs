@@ -1,4 +1,4 @@
-# MCMCforPDEs
+# Markov Chains For PDEs
 
 ## Description
 
